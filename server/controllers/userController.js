@@ -124,5 +124,74 @@ export const cancelBookings = asyncHandler(async (req, res) => {
     }
 })
 
+export const favResidence = asyncHandler( async(req, res) => {
+    const {email} = req.body;
+    const {residenceID} = req.params;
+    console.log("favoriting a residence")
+
+    try{
+        const user = await prismadb.user.findUnique({
+            where: {email}
+        })
+
+        if(user.favResidenciesiD.includes(residenceID)){
+            console.log("It's favorited already")
+            let updatedUser = await prismadb.user.update({
+                where: {email},
+                data: {
+                    favResidenciesiD: {
+                        set: user.favResidenciesiD.filter((id) => {
+                            id !== residenceID
+                        })
+                    }
+                }
+            })
+
+            return res.json({
+                message: "Removed from Favorites",
+                updatedUser
+            })
+        }else{
+            let updatedUser = await prismadb.user.update({
+                where: {email},
+                data: {
+                    favResidenciesiD: {
+                        push: residenceID
+                    }
+                }
+            })
+            
+            return res.json({
+                message: "Added to Favorites",
+                updatedUser
+            })
+        }
+
+    }catch(error){
+        if (error){
+            throw new Error("Unable to favorite", error)
+        } 
+    }
+})
+
+export const getAllFavorites = asyncHandler( async(req, res) => {
+    const {email} = req.body;
+    console.log("getting all favorites")
+    try{
+        const favRes = await prismadb.user.findUnique({
+            where: {email},
+            select: { favResidenciesiD: true }
+        })
+
+        return res.json({
+            message: "All Your favorite residencies",
+            favResidenciesiD: favRes.favResidenciesiD
+        })
+    }catch(error){
+        if(error){
+            throw new Error("Can't get Favorites", error)
+        }
+    }
+})
 export default createUsers
 
