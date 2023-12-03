@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import { LandingPage } from './components'
+import { LandingPage, Header } from './components'
 
 function App() {
 
   return (
     <>
-      <LandingPage/> 
+      <LandingPage /> 
     </>
   )
 }

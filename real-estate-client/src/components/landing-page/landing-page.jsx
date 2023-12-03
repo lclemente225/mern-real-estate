@@ -1,11 +1,13 @@
 import React from 'react'
 import Header from '../header/header'
+import Hero from '../hero/hero'
 
 const LandingPage = () => {
   return (
-    <div>
+    <>
       <Header/>
-    </div>
+      <Hero />
+    </>
   )
 }
 

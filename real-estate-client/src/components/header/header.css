@@ -1,0 +1,22 @@
+.h-wrapper {
+    background-color: var(--black);
+    color: white;
+}
+
+div.h-container {
+    justify-content: space-between;
+    color: white;
+}
+
+.h-menu {
+    gap: 2rem;
+}
+
+.h-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.h-menu>*:hover{
+    color: rgba(255, 255, 255, 0.555);
+}
