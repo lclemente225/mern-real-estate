@@ -1,5 +1,44 @@
-.flex-center{
+.flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.padding {
+  padding: 1.5rem;
+}
+
+.innerWidth {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+@media (min-width: 1536px) {
+  .innerWidth {
+    max-width: 1280px;
+    margin: auto;
+  }
+
+}
+
+@media (min-width: 640px) {
+  .padding {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 1280px), (min-width: 768px) {
+  .padding {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .orange-text {
+    color: orange;
+  }
+
 }
