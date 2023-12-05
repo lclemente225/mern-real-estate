@@ -1,12 +1,16 @@
 import React from 'react'
-import Header from '../header/header'
-import Hero from '../hero/hero'
+import { Header, Hero } from '../index'
 
 const LandingPage = () => {
   return (
     <>
-      <Header/>
-      <Hero />
+      <div className='landing-page'>
+        <div>
+          <div className="white-gradient" />
+            <Header />
+            <Hero />
+          </div>
+      </div>
     </>
   )
 }

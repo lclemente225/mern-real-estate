@@ -1,6 +1,7 @@
 import React from 'react'
 import './hero.css'
 import { HiLocationMarker } from 'react-icons/hi'
+import  CountUp  from 'react-countup'
 
 const Hero = () => {
   return (
@@ -12,12 +13,12 @@ const Hero = () => {
                   <div className="orange-circle"/>
                   <h1>
                     Discover <br/>
-                    Most Suitable<br/>
-                    Property
+                    Suitable<br/>
+                    Properties
                   </h1>
               </div>
 
-              <div className="flex-col-start hero-des">
+              <div className="flex-col-start secondary-text hero-des">
                 <span>
                     Find a variety of properties that suit you 
                 </span>
@@ -31,6 +32,37 @@ const Hero = () => {
                   <button className='button'>
                     Search
                   </button>
+              </div>
+
+              <div className="flex-center stats">
+                  <div className="flex-col-center stat">
+                      <span>
+                          <CountUp start={8000} end={9000} duration={4}/>
+                          <span>+</span>
+                      </span>
+                      <span className="secondary-text">
+                        Premium Products
+                      </span>
+                  </div>
+                  <div className="flex-col-center stat">
+                      <span>
+                          <CountUp start={800} end={2000} duration={4}/>
+                          <span>+</span>
+                      </span>
+                      <span className="secondary-text">
+                        Happy Customers
+                      </span>
+                  </div>
+                  <div className="flex-col-center stat">
+                      <span>
+                          <CountUp start={5} end={28} duration={4}/>
+                          <span>+</span>
+                      </span>
+                      <span className="secondary-text">
+                        Premium Products
+                      </span>
+                  </div>
+                  
               </div>
           </div>
 

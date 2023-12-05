@@ -10,9 +10,6 @@ div.hero-container {
 }
 
 /*Right Side*/
-.hero-right {
-    border: 2px solid red;
-}
 .image-container {
     width: 30rem;
     height: 35rem;
@@ -30,7 +27,6 @@ div.hero-container {
 
 .hero-left{
     gap: 3rem;
-    border: 2px solid red;
 }
 
 .hero-title {
@@ -42,6 +38,10 @@ div.hero-container {
     font-weight: 600;
     font-size: 3.8rem;
     line-height: 4rem;
+}
+
+.hero-des {
+    line-height: 2rem;
 }
 
 .orange-circle {
@@ -63,8 +63,20 @@ div.hero-container {
     justify-content: space-between !important;
 }
 
-.search-bar input{
+.search-bar input {
     border: none;
     outline: none;
     
+}
+
+.stats {
+    gap: 1rem;
+}
+
+.stat>:nth-child(1) {
+    font-size: 2rem;
+}
+
+.stat>:nth-child(1)>:last-child {
+    color: orange;
 }
