@@ -1,5 +1,6 @@
 import React from 'react'
-import { Header, Hero } from '../index'
+import { Header, Hero, Companies, Carousel } from '../index'
+import './landing-page.css'
 
 const LandingPage = () => {
   return (
@@ -9,7 +10,9 @@ const LandingPage = () => {
           <div className="white-gradient" />
             <Header />
             <Hero />
-          </div>
+        </div>
+        <Companies />
+        <Carousel />
       </div>
     </>
   )

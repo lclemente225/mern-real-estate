@@ -1,0 +1,18 @@
+.c-wrapper {
+    border: 2px solid red;
+    height: 30vh;
+}
+
+.c-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.company {
+     width: 100px;
+     height: 100px;
+     border: 2px solid red;
+}
