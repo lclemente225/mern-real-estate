@@ -1,17 +1,14 @@
 .landing-page {
-    overflow-x: clip;
-    z-index: -1;
     position: relative;
 }
 
 .white-gradient {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(197, 158, 158, 0.5);
     width: 20rem;
     height: 20rem;
     top: 10%;
     z-index: 2;
-    border: 2px solid red;
     filter: blur(100px);
 }
 

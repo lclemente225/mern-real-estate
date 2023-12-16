@@ -1,9 +1,39 @@
+.carousel-container {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+}
 
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+  width: 70%;
+  height: min-content;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+    min-width: 25rem;
+    min-height: 10rem;
+
+}
+
+.innerCarousel {
+  background-color: light-blue;
+  width: 100%;
+  display: flex;
+}
+  
 .property-listing {
     width: 300px;
     height: 200px;
-    border: 2px solid red;
-    background-color: green;
+    border: 2px solid rgb(255,255,255);
+    background: white;
+    box-shadow: 0 5px 5px rgba(0,0,0, 0.2);
+    gap: 10px;
 }
 
 
