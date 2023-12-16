@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header, Hero, Companies, Carousel } from '../index'
 import './landing-page.css'
+import TestCarousel from '../carousel/test-carousel'
 
 const LandingPage = () => {
   return (
@@ -12,7 +13,7 @@ const LandingPage = () => {
             <Hero />
         </div>
         <Companies />
-        <Carousel />
+        <TestCarousel />
       </div>
     </>
   )

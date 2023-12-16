@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Residential Mansion",
+        "price": "300,000",
+        "address": "3137 Water Lake Ct",
+        "image": "something.png"
+    },
+    {
+        "name": "FarmHouse Mansion",
+        "price": "600,000",
+        "address": "1234 Milk Lake Ct",
+        "image": "something.png"
+    },
+    {
+        "name": "Suburbian Mansion",
+        "price": "900,000",
+        "address": "2211 Tubig Lake Ct",
+        "image": "something.png"
+    },
+    {
+        "name": "Forest Mansion",
+        "price": "1,200,000",
+        "address": "636 American Lake Ct",
+        "image": "something.png"
+    },
+    {
+        "name": "Beach Mansion",
+        "price": "3,000,000",
+        "address": "1122 Gold Nugget Lake Ct",
+        "image": "something.png"
+    },
+    {
+        "name": "Residential Mansion",
+        "price": "3,000,000",
+        "address": "1122 Gold Nugget Lake Ct",
+        "image": "something.png"
+    },
+    {
+        "name": "Residential Mansion",
+        "price": "3,000,000",
+        "address": "1122 Gold Nugget Lake Ct",
+        "image": "something.png"
+    },
+    {
+        "name": "Residential Mansion",
+        "price": "3,000,000",
+        "address": "1122 Gold Nugget Lake Ct",
+        "image": "something.png"
+    }
+]

@@ -1,19 +1,19 @@
-import React from 'react'
-import './carousel.css'
+import React, { useRef, useState } from "react";
+import { motion } from "framer-motion"
 import data from '../../../utils/data.json'
+import './test.css'
 
-
-const Carousel = () => {
-
+export default function App() {
   return (
-    <div className='carousel-wrapper'>
-        <div className="carousel-container">
-            
-        
-            {
-                /* data.map((value, index) => {
+    <>
+      <motion.div className="carousel">
+          <motion.div 
+          drag="x"
+          className="innerCarousel">
+          {
+            data.map((value, index) => {
                 return (
-                    <SwiperSlide key={`${index}-property`}> 
+                    <motion.div key={`${index}-property`} className="item flex-center"> 
                         <div className='property-listing flex-col-start'>
                             <span>
                                 {value.price}
@@ -25,13 +25,12 @@ const Carousel = () => {
                                 {value.address}
                             </span>
                         </div>
-                    </SwiperSlide>
+                    </motion.div>
                     )
-                }) */
+              })
             }
-        </div>
-    </div>
-  )
+          </motion.div>
+      </motion.div>
+    </>
+  );
 }
-
-export default Carousel
