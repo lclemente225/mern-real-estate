@@ -10,6 +10,7 @@ View Live Demo
 2. express JS
 3. React JS
 4. node.js
+5. Prisma
 
 ##What is this project?
 
