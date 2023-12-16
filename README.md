@@ -1,6 +1,9 @@
 ##Purpose
 
 This is a practice project to learn about the MERN stack
+<a href="https://harmonious-sundae-bce26a.netlify.app/">
+View Live Demo
+</a>
 
 ##Technologies Used
 1. mongodb

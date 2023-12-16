@@ -1,0 +1,16 @@
+{
+  "name": "real-estate-mern",
+  "version": "1.0.0",
+  "description": "This is a practice project to learn about the MERN stack",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": ""
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC"
+}
