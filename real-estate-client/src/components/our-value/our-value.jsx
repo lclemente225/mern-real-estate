@@ -1,8 +1,9 @@
-import React from 'react'
+
+import './value.css';
 
 const Value = () => {
   return (
-    <>
+    <div className='value-container'>
       <div className="value-img">
         Image here
       </div>
@@ -10,7 +11,7 @@ const Value = () => {
         <h4>Our Value</h4>
         <h3>Value We Give to You</h3>
       </div>
-    </>
+    </div>
   )
 }
 
