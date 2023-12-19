@@ -1,6 +1,5 @@
 
 import { Header, Hero, Companies, Carousel, Value } from '../index'
-//import TestCarousel from '../carousel/test-carousel'
 import './landing-page.css'
 
 const LandingPage = () => {

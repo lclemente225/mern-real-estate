@@ -1,50 +1,50 @@
 [
     {
-        "name": "Residential Mansion",
+        "name": "Residential Lake House",
         "price": "300,000",
         "address": "3137 Water Lake Ct",
-        "image": "something.png"
+        "image": "lake-house-1.jpg"
     },
     {
         "name": "FarmHouse Mansion",
         "price": "600,000",
         "address": "1234 Milk Lake Ct",
-        "image": "something.png"
+        "image": "lake-house-2.jpg"
     },
     {
         "name": "Suburbian Mansion",
         "price": "900,000",
         "address": "2211 Tubig Lake Ct",
-        "image": "something.png"
+        "image": "mansion-1.jpg"
     },
     {
         "name": "Forest Mansion",
         "price": "1,200,000",
         "address": "636 American Lake Ct",
-        "image": "something.png"
+        "image": "mansion-2.jpg"
     },
     {
         "name": "Beach Mansion",
         "price": "3,000,000",
         "address": "1122 Gold Nugget Lake Ct",
-        "image": "something.png"
+        "image": "mansion-3.jpg"
     },
     {
         "name": "Residential Mansion",
         "price": "3,000,000",
         "address": "1122 Gold Nugget Lake Ct",
-        "image": "something.png"
+        "image": "suburb-house-1.jpg"
     },
     {
         "name": "Residential Mansion",
         "price": "3,000,000",
-        "address": "1122 Gold Nugget Lake Ct",
-        "image": "something.png"
+        "address": "6677 Chicken Feet Ct",
+        "image": "suburb-house-2.jpg"
     },
     {
-        "name": "Residential Mansion",
+        "name": "Small Town House",
         "price": "3,000,000",
-        "address": "1122 Gold Nugget Lake Ct",
-        "image": "something.png"
+        "address": "1122 Gold Grills Lake Ct",
+        "image": "suburb-house-3.jpg"
     }
 ]
