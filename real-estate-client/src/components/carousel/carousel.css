@@ -2,21 +2,25 @@
     padding-left: 5rem;
 }
 
-.carousel-container {
+.carousel-wrapper {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    outline: 2px solid red;
 }
 
-.item {
+.carousel-container {
+    width: 75%;
+    overflow: hidden;
+}
+
+.carousel-card {
     min-width: 23rem;
+    max-width: max-content;
     height: 200px;
     margin-right: 5rem;
     background: rgba(255, 255, 255, 0.527);
-    transition: scale 2s ease;
+    transition: scale 7000ms ease;
     border-radius: 20px;
+    padding: 2rem 0;
+    gap: 0.5rem;
 }
 
 .carousel-image {
@@ -32,16 +36,16 @@
     height: 100%;
 }
 
-.item:hover {
+.carousel-card:hover {
     background: linear-gradient(
         180deg,
         rgba(135, 206, 250, 0)   0%,
-        rgba(136,160,255, 6.46) 215.91%
+        rgba(136,160,255, 6.46) 315.91%
     );
     scale: 1.025;
 }
 .swiper{
-    width: 70%;
+    width: 100%;
 }
 
 .swiper-horizontal {

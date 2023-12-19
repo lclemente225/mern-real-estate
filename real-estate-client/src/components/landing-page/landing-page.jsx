@@ -9,10 +9,10 @@ const LandingPage = () => {
           <div className="white-gradient" />
             <Header />
             <Hero />
-      </div>
         <Companies />
         <Carousel />
         <Value />
+      </div>
     </>
   )
 }
