@@ -1,5 +1,4 @@
-import { useEffect, useRef, useState } from "react";
-import { AnimatePresence, motion, useDragControls } from "framer-motion"
+
 import data from '../../../utils/data.json'
 import { sliderSettings } from "../../../utils/common";
 import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
