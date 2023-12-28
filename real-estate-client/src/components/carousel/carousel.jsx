@@ -8,7 +8,7 @@ import './carousel.css'
 export default function Carousel() {
   return (
     <>
-    <div className="carousel-wrapper flex-center">
+    <div className="carousel-wrapper section-margin flex-center">
         <div className="carousel-container flex-col-start">
             <div className="carousel-title-container flex-col-start">
                 <span className="orange-text">

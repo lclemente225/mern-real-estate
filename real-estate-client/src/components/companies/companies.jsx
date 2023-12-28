@@ -3,7 +3,7 @@ import './companies.css'
 
 const Companies = () => {
   return (
-    <div className='c-wrapper'>
+    <div className='c-wrapper section-margin'>
       <div className="c-container">
         <div className="company">
             Company1
