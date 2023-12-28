@@ -3,7 +3,7 @@ import data from '../../../utils/data.json'
 import { sliderSettings } from "../../../utils/common";
 import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
 import './carousel.css'
-import 'swiper/css'
+//import 'swiper/css'
 
 export default function Carousel() {
   return (
