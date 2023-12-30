@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import {
     Accordion,
     AccordionItem,
@@ -13,6 +14,13 @@ import './value.css';
 
 
 const Value = () => {
+
+  const [AccordionClassName, setAccordionClassName] = useState({
+    "accordion-item-1": "",
+    "accordion-item-2": "",
+    "accordion-item-0": ""
+  })
+ 
   return (
     <section className='value-container section-margin'>
       <div className="value-image-container">
@@ -20,13 +28,50 @@ const Value = () => {
         className='value-image'/>
       </div>
       <div className="value-accordion-container">
-        <div className="value-title flex-col-start">
+        <div className="value-accordion-title flex-col-start">
           <span className='primary-text'>Our Value</span>
           <span className='orange-text'>What We Give to You</span>
+          <span className="desc-text secondary-text">
+            We are always here to help you with the best service.
+            <br/>
+            We provide the best housing solutions to suit your needs.
+          </span>
         </div>
-        <div className="value-accordion">
-
-        </div>
+            <Accordion 
+              className='accordion'
+              allowZeroExpanded={true}
+              allowMultipleExpanded={false}
+              preExpanded={[0]}
+            > 
+                {
+                data.map((item, index) => {
+                return (
+                  
+                    <AccordionItem key={index} uuid={index}
+                    className={`accordion-item`}>
+                          <AccordionItemHeading>
+                              <AccordionItemButton className='accordion-heading-button'>
+                                  <div className="flex-center accordion-icon">
+                                      {item.icon}
+                                  </div>
+                                  <span className="primary-text accordion-heading">
+                                      {item.heading}
+                                  </span>
+                                  <div className="flex-center accordion-icon">
+                                      <MdOutlineArrowDropDown />
+                                  </div>
+                              </AccordionItemButton>
+                          </AccordionItemHeading>
+                          <AccordionItemPanel className="accordion-item-detail" >
+                              <p className="secondary-text">
+                                {item.detail}
+                              </p>
+                          </AccordionItemPanel>
+                    </AccordionItem>
+                  )
+                })
+                }
+            </Accordion>
       </div>
     </section>
   )

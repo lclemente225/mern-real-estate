@@ -10,12 +10,12 @@ const data = [{
 {
     icon: <MdCancel />,
     heading: "Prevent unstable prices",
-    detail: "We background check all of our sellers"
+    detail: "We background check all of our sellers to ensure stable prices"
 },
 {
     icon: <MdAnalytics />,
     heading: "Best price on the market",
-    detail: "We utilize databases all over to guarantee the best prices"
+    detail: "We utilize databases all over the country to guarantee the best prices"
 },
 ]
 
