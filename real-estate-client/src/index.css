@@ -24,6 +24,12 @@ button {
   align-items: center;
 }
 
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .flex-col-start {
   display: flex;
   flex-direction: column;

@@ -1,8 +1,8 @@
 .value-container {
     display: flex;
     width: 100%;
-    height: 50vh;
-    justify-content: space-bewtween;
+    height: 60vh;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -74,7 +74,8 @@
     color: rgb(18, 18, 160);
 }
 
-/*This selects the parent accordion element*/
+/*This selects the parent accordion element when the 
+child is expandedr*/
 .accordion-item:has(.accordion-heading-button[aria-expanded="true"]){
     box-shadow: 0 5px 10px 1px rgba(0,0,0,0.1);
     border-radius: 5px;

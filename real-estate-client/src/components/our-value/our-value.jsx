@@ -39,7 +39,7 @@ const Value = () => {
         </div>
             <Accordion 
               className='accordion'
-              allowZeroExpanded={true}
+              allowZeroExpanded={false}
               allowMultipleExpanded={false}
               preExpanded={[0]}
             > 

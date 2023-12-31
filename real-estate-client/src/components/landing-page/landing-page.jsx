@@ -1,5 +1,5 @@
 
-import { Header, Hero, Companies, Carousel, Value } from '../index'
+import { Header, Hero, Companies, Carousel, Value, Contact } from '../index'
 import './landing-page.css'
 
 const LandingPage = () => {
@@ -7,11 +7,12 @@ const LandingPage = () => {
     <>
       <div className='landing-page'>
           <div className="white-gradient" />
-            <Header />
-            <Hero />
-        <Companies />
-        <Carousel />
-        <Value />
+          <Header />
+          <Hero />
+          <Companies />
+          <Carousel />
+          <Value />
+          <Contact />
       </div>
     </>
   )
